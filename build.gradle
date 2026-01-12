@@ -28,8 +28,8 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-	implementation 'redis.clients:jedis'
-	compileOnly 'org/projectlombok:lombok'
+	implementation 'redis.clients:jedis:5.1.0'
+	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 }
 
