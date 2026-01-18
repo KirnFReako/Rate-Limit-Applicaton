@@ -1,4 +1,4 @@
-package RateLimitngApp.example.RateLimit.Config;
+package ratelimitingApp.example.ratelimit.config;
 
 
 

@@ -1,11 +1,10 @@
-package RateLimitngApp.example.RateLimit.ServiceLayer;
+package ratelimitingApp.example.ratelimit.service;
 
-import RateLimitngApp.example.RateLimit.Config.RateLimiterProperties;
+import ratelimitingApp.example.ratelimit.config.RateLimiterProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.Jedis;
-import java.time.Instant;
 
 
 // store token bucket state in redis

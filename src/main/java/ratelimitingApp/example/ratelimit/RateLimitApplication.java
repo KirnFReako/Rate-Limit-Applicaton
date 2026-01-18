@@ -1,4 +1,4 @@
-package RateLimitngApp.example.RateLimit;
+package ratelimitingApp.example.ratelimit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RateLimitApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(RateLimitApplication.class, args);
 	}
 
